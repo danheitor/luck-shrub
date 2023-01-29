@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #26877f;
+}
+body {
+  background-color: #12130f;
+}
+
+h2 {
+  font-size: 1.8rem;
+  padding-bottom: 30px;
+}
+header > img {
+  height: 350px;
+  width: 250px;
+  display: block;
+  margin: 20px auto;
+}
+
+nav {
+  border-top: 1px solid #26877f;
+  border-bottom: 1px solid #26877f;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  font-size: 1.8rem;
+}
+nav * {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main > div {
+  height: 300px;
+  background: rgba(0, 0, 0, 0.4) url(./media/gardening-banner_1.jpg);
+  background-size: 100% 100%;
+  border-radius: 8px;
+  margin: 50px;
+  padding: 20px;
+  align-items: center;
+  background-blend-mode: darken;
+}
+main > div > h2 {
+  color: white;
+  font-size: 5rem;
+  margin-left: 20px;
+}
+p {
+  font-size: 1.2rem;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  width: 600px;
+  height: 600px;
+  margin: 10px 50px;
+  align-self: center;
+  color: aliceblue;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+article img {
+  height: 300px;
+  width: 500px;
+  border-radius: 25px;
+  filter: brightness(80%);
+}
+
+article p {
+  padding: 10px;
+}
+
+article a {
+  font-size: 1.4rem;
+  padding-top: 20px;
+}
+article a:hover {
+  color: white;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div {
+  justify-content: flex-end;
+  padding: 0px 50px;
+}
+footer img {
+  width: 100px;
+  height: 100px;
+}
+
+footer > div > p {
+  margin-top: 80px;
+  align-self: flex-start;
+}
