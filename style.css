@@ -4,7 +4,7 @@
   color: #26877f;
 }
 body {
-  background-color: #12130f;
+  background-color: #FBF4E9;
 }
 
 h2 {
@@ -12,7 +12,7 @@ h2 {
   padding-bottom: 30px;
 }
 header > img {
-  height: 350px;
+  height: 300px;
   width: 250px;
   display: block;
   margin: 20px auto;
