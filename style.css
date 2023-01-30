@@ -7,6 +7,10 @@ body {
   background-color: #FBF4E9;
 }
 
+#banner > h2 {
+  font-size: 3.6rem;
+  padding-top: 30px;
+}
 h2 {
   font-size: 1.8rem;
   padding-bottom: 30px;
@@ -59,44 +63,54 @@ section {
 }
 
 article {
-  width: 600px;
-  height: 600px;
+  width: 33vw;
+  height: 550px;
   margin: 10px 50px;
   align-self: center;
   color: aliceblue;
   padding: 10px;
   display: flex;
   flex-direction: column;
+  flex: 1;
   align-items: center;
-  justify-content: center;
-  text-align: justify;
+  text-align: center;
 }
 article img {
-  height: 300px;
-  width: 500px;
+  height: 220px;
+  width: 100%;
   border-radius: 25px;
   filter: brightness(80%);
 }
 
 article p {
-  padding: 10px;
+  padding-top: 10px;
+  text-align: justify;
 }
 
 article a {
   font-size: 1.4rem;
   padding-top: 20px;
+  margin-top: auto;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  /* animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; */
 }
 article a:hover {
-  color: white;
+  border-bottom: 2px solid #26877f;
 }
 footer {
   display: flex;
   justify-content: space-between;
+  
 }
 
 footer div {
   justify-content: flex-end;
-  padding: 0px 50px;
+  margin-top: 20px;
+  padding: 10px 50px;
 }
 footer img {
   width: 100px;
@@ -107,3 +121,12 @@ footer > div > p {
   margin-top: 80px;
   align-self: flex-start;
 }
+
+/* @keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+} */
